@@ -11,7 +11,11 @@
     --font-audiowide: "Audiowide", "sans-serif";
     --font-inter:"Inter", "sans-serif";
     --font-poppins:"Poppins", "sans-serif";
+
     --breakpoint-3xl: 120rem;
+    --color-cerulean: #09C1E9;
+    --color-limegreen: #83C668;
+
     --color-avocado-100: oklch(0.99 0 0);
     --color-avocado-200: oklch(0.98 0.04 113.22);
     --color-avocado-300: oklch(0.94 0.11 115.03);

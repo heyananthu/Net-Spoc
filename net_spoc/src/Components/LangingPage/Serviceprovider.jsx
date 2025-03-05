@@ -4,16 +4,16 @@ import Macbook from "../../assets/Macbook.png";
 
 function Serviceprovider() {
     return (
-        <div className="relative w-full min-h-screen flex flex-col items-center justify-center text-white bg-black">
-
+        <div className="relative max-w-screen min-h-screen flex flex-col items-center justify-center text-white bg-black">
+            
             {/* Background Image Wrapper */}
             <div
-                className="absolute inset-0 w-[47rem] h-full bg-cover bg-center bg-no-repeat"
+                className="absolute inset-0  max-w-[47rem] md:w-[35rem] w-full h-full bg-cover bg-center bg-no-repeat "
                 style={{ backgroundImage: `url(${bgimage})` }}
             ></div>
 
             {/* Dark Overlay for Readability */}
-            <div className="absolute inset-0 bg-black/50"></div>
+            <div className="absolute inset-0 bg-black/50 z-[-1]"></div>
 
             {/* Content */}
             <div className="relative z-10 w-full max-w-7xl px-4 md:px-8 py-16">

@@ -6,6 +6,8 @@ import india from "../../assets/india.png";
 import HeroSection from "./HeroSection";
 import CoreObjectives from "./CoreObjectives";
 import Serviceprovider from "./Serviceprovider";
+import EmployeeSection from "./EmployeeSection";
+// import Footer from "./Footer";
 
 function MainComponent() {
     return (
@@ -46,6 +48,8 @@ function MainComponent() {
             {/* Other Sections */}
             <CoreObjectives />
             <Serviceprovider />
+            <EmployeeSection />
+            {/* <Footer /> */}
         </div>
     );
 }
