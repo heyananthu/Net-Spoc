@@ -15,14 +15,13 @@ function BackgroundComponent() {
                 />
 
                 {/* Center Image (India) */}
-                <div className="flex justify-center items-end">
+                <div className="flex justify-center items-end h-[30rem] pb-12">
                     <img
                         src={india}
-                        className="w-[18rem] md:w-[23rem] absolute top-[22rem] sm:left-[30%] left-[7rem] md:left-[40%] md:top-[18rem]"
+                        className="w-[18rem] md:w-[23rem] absolute md:top-[18rem] top-[22rem] sm:left-[30%] left-[7rem] md:left-[38%] z-10"
                         alt="India"
                     />
                 </div>
-
 
                 {/* Right Image */}
                 <img

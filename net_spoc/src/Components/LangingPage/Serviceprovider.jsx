@@ -5,7 +5,7 @@ import Macbook from "../../assets/Macbook.png";
 function Serviceprovider() {
     return (
         <div className="relative max-w-screen min-h-screen flex flex-col items-center justify-center text-white bg-black">
-            
+
             {/* Background Image Wrapper */}
             <div
                 className="absolute inset-0  max-w-[47rem] md:w-[35rem] w-full h-full bg-cover bg-center bg-no-repeat "
@@ -24,19 +24,19 @@ function Serviceprovider() {
                         <h1 className="font-audiowide text-4xl md:text-5xl leading-tight">
                             The Largest <br /> Premier Internet <br /> Managed Service <br /> Provider.
                         </h1>
-                        <p className="text-lg text-gray-300">
-                            Welcome to NetSpoc, your premier internet managed <br className="hidden md:block" />
-                            service provider. At NetSpoc, we're committed to <br className="hidden md:block" />
+                        <p className="text-lg font-poppins text-gray-300">
+                            Welcome to NetSpoc, your premier internet <br /> managed
+                            service provider. At NetSpoc, we're <br /> committed to
                             delivering excellence.
                         </p>
-                        <button className="mt-6 rounded-xl bg-gradient-to-b from-transparent to-violet-500/40 text-white px-6 py-3 border border-gray-500 hover:text-gray-300 transition">
+                        <button className="mt-6 rounded-xl bg-gradient-to-b from-transparent to-violet-500/40 text-purple-100 px-6 py-2 border border-gray-500 hover:text-gray-300 transition">
                             Book a Demo →
                         </button>
                     </div>
 
                     {/* Right Side: MacBook Image */}
                     <div className="w-full max-w-lg">
-                        <img src={Macbook} alt="Macbook" className="w-full h-auto drop-shadow-lg" />
+                        <img src={Macbook} alt="Macbook" className="w-full h-auto drop-shadow-lg " />
                     </div>
                 </div>
             </div>

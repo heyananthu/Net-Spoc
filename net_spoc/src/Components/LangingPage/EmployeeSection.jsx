@@ -5,7 +5,7 @@ import bgimage from '../../assets/Emplyee-bg.png';
 function EmployeeSection() {
     return (
         <div>
-            <div className='relative bg-black min-h-screen max-w-screen flex flex-col items-center'>
+            <div className='relative bg-black h-[44rem] max-w-screen flex flex-col items-center'>
                 {/* ✅ Background Image - Positioned Right & Responsive */}
                 <div
                     className="absolute right-0 top-0 lg:w-1/2 w-full h-full bg-cover bg-right bg-no-repeat opacity-30"
@@ -30,7 +30,6 @@ function EmployeeSection() {
                 </div>
             </div>
 
-
         </div>
     );
 }
@@ -40,7 +39,7 @@ const StatBox = ({ number, text }) => (
         <h1 className='font-audiowide text-3xl md:text-5xl  bg-gradient-to-r from-cerulean to-limegreen inline-block text-transparent bg-clip-text'>
             {number}
         </h1>
-        <p className='text-white text-[10px] md:text-[10px]'>{text}</p>
+        <p className='text-white font-worksans text-[10px] md:text-[10px]'>{text}</p>
     </div>
 );
 

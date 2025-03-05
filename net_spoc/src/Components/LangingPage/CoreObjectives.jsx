@@ -47,11 +47,11 @@ function CoreObjectives() {
                     {objectives.map((item, index) => (
                         <div
                             key={index}
-                            className="bg-black/30 backdrop-blur-md border border-gray-500 shadow-lg rounded-lg p-6 w-full max-w-sm mx-auto transition-all duration-300 flex flex-col justify-between items-center min-h-[24rem]"
+                            className="bg-black/30 backdrop-blur-md border border-gray-500 shadow-lg rounded-lg p-6 w-full max-w-sm mx-auto transition-all duration-300 flex flex-col items-center space-y-6 min-h-[24rem]"
                         >
-                            <img src={item.icon} className="w-14 h-14 my-4" alt={item.title} />
+                            <img src={item.icon} className="size-[2rem] mt-6" alt={item.title} />
                             <h2 className="font-audiowide text-lg sm:text-xl">{item.title}</h2>
-                            <p className="font-poppins text-sm mt-2 text-wrap">{item.text}</p>
+                            <p className="font-poppins font-normal text-sm mt-2 text-wrap text-gray-100">{item.text}</p>
                         </div>
                     ))}
                 </div>
@@ -59,15 +59,15 @@ function CoreObjectives() {
                 {/* Extra Section */}
                 <div className='text-center text-white mt-32 space-y-10 px-4'>
                     <h1 className='font-audiowide text-3xl sm:text-5xl'>Enhancing Network Fault Detection <br /> and Recovery with AI Agents</h1>
-                    <p className='font-poppins text-sm sm:text-base leading-relaxed max-w-4xl mx-auto'>
-                        We all know that network faults in telecom can be a nightmare—one little glitch and suddenly everything
+                    <p className='font-poppins text-gray-100 text-sm sm:text-base leading-relaxed max-w-4xl mx-auto'>
+                        We all know that network faults in telecom can be a nightmare—one little glitch and suddenly everything<br/>
                         goes haywire! With networks getting more complex, even small problems can snowball into big issues.
-                        But what if there was a way to fix these problems instantly, with just the click of a button? Enter AI-powered
-                        network fault detection and recovery—where Agentic AI doesn’t just find the problems, it fixes them too,
-                        faster and smarter than ever before. In this post, we’re diving into how this technology is changing the
+                        But <br/>what if there was a way to fix these problems instantly, with just the click of a button? Enter AI-powered <br/>
+                        network fault detection and recovery—where Agentic AI doesn’t just find the problems, it fixes them too,<br/>
+                        faster and smarter than ever before. In this post, we’re diving into how this technology is changing the<br/>
                         game and making telecom networks more reliable than ever!
                     </p>
-                    <button className='rounded-xl bg-gradient-to-b from-transparent to-violet-500/40 text-white px-6 py-3 border border-gray-500 hover:text-gray-300 transition-all'>
+                    <button className='rounded-xl bg-gradient-to-b from-transparent to-violet-500/40 text-purple-100 px-6 py-2 border border-gray-500 hover:text-gray-300 transition-all'>
                         Book a Demo →
                     </button>
                 </div>

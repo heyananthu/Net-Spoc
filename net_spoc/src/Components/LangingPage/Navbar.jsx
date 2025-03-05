@@ -119,8 +119,8 @@ function Navbar() {
                                 ${isOpen ? "flex" : "hidden md:flex"}`}
                     id="navbar-default"
                 >
-                    <ul className="font-medium flex flex-col items-center font-inter p-4 md:p-0 mt-4 
-                                   md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 text-white 
+                    <ul className="text-[14px] font-normal flex flex-col items-center font-inter p-4 md:p-0 mt-4 
+                                   md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 text-white
                                    space-y-12 md:space-y-0 md:bg-none">
                         <li>
                             <a href="#" className="hover:text-gray-300 cursor-pointer">
