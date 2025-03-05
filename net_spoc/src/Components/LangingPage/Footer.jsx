@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../../assets/Logo.png';
 import fb from '../../assets/fb.png';
 import x from '../../assets/x.png';
-import instagram from '../../assets/instagram.png';
+import instagram from '../../assets/Instagram.png';
 import linkedin from '../../assets/linkedin.png';
 import youtube from '../../assets/youtube.png';
 

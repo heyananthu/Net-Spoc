@@ -35,7 +35,6 @@ function EmployeeSection() {
     );
 }
 
-// ✅ Reusable Stats Component (Now Responsive)
 const StatBox = ({ number, text }) => (
     <div className='space-y-3'>
         <h1 className='font-audiowide text-3xl md:text-5xl  bg-gradient-to-r from-cerulean to-limegreen inline-block text-transparent bg-clip-text'>
