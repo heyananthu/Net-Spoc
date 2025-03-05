@@ -8,11 +8,11 @@ import youtube from '../../assets/youtube.png';
 
 function Footer() {
     return (
-        <div className="bg-gradient-to-t from-[#17845c] via-[#000000] to-black w-full ">
-            <div className="max-w-7xl mx-auto grid items-center grid-cols-1 space-y-12 md:flex md:flex-row md:justify-between md:items-center">
+        <div className="bg-gradient-to-t from-[#023120] via-black to-black w-full mx-auto px-10">
+            <div className="max-w-7xl mx-auto grid items-center grid-cols-1 space-y-12 md:flex md:flex-row md:justify-between md:items-center py-3">
                 {/* Left Section */}
                 <div className="text-white space-y-24">
-                    <img src={Logo} alt="Logo" className="w-44" />
+                    <img src={Logo} alt="Logo" className="w-60" />
                     <h1 className="font-audiowide text-5xl text-white">
                         Connect <br /> with us
                     </h1>
@@ -21,7 +21,7 @@ function Footer() {
 
                 {/* Middle Section */}
                 <div className="text-white space-y-2">
-                    <p className="text-gray-300 text-lg">Say hello to us</p>
+                    <p className="text-gray-300 text-sm">Say hello to us</p>
                     <p className="text-white text-xl font-semibold underline">hello@NETSPOC.com</p>
                 </div>
 
@@ -33,7 +33,7 @@ function Footer() {
                         <li>Terms & Conditions</li>
                     </ul>
 
-                    <div className="flex gap-5 md:justify-end mt-6">
+                    <div className="flex gap-5 md:justify-end mt-3 md:mt-16">
                         <img src={fb} alt="Facebook" className="w-7 h-7" />
                         <img src={x} alt="X (Twitter)" className="w-7 h-7" />
                         <img src={linkedin} alt="LinkedIn" className="w-7 h-7" />

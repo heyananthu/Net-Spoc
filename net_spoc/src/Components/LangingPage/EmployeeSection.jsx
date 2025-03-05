@@ -1,7 +1,6 @@
 import React from 'react';
 import image1 from '../../assets/empimg.png';
 import bgimage from '../../assets/Emplyee-bg.png';
-import Footer from './Footer';
 
 function EmployeeSection() {
     return (
@@ -30,7 +29,6 @@ function EmployeeSection() {
                     </div>
                 </div>
             </div>
-            <Footer />
 
 
         </div>
