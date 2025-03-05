@@ -5,28 +5,28 @@ import india from "./assets/india.png";
 
 function BackgroundComponent() {
     return (
-        <div className="absolute inset-0 w-full h-screen bg-black overflow-hidden pointer-events-none -z-10">
+        <div className="absolute inset-0 w-full h-screen bg-black overflow-hidden  -z-10">
             <div className="relative flex justify-between h-full">
                 {/* Left Image */}
                 <img
                     src={leftimage}
-                    className="w-[35%] max-w-[43rem] h-full object-cover"
+                    className="w-[35%] md:w-full md:max-w-full h-full object-cover"
                     alt="Left Background"
                 />
 
                 {/* Center Image (India) */}
-                <div className="absolute inset-0 flex justify-center items-end">
+                {/* <div className="absolute inset-0 flex justify-center items-end">
                     <img
                         src={india}
                         className="w-[22rem] fix translate-x-8 -translate-y-3 md:-translate-0 md:w-[23rem] max-h-full "
                         alt="India"
                     />
-                </div>
+                </div> */}
 
                 {/* Right Image */}
                 <img
                     src={rightimage}
-                    className="w-[35%] max-w-[43rem] h-full object-cover"
+                    className="w-[35%] md:w-full max-w-full h-full object-cover"
                     alt="Right Background"
                 />
             </div>
