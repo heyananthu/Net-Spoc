@@ -18,7 +18,7 @@ function BackgroundComponent() {
                 <div className="absolute inset-0 flex justify-center items-end">
                     <img
                         src={india}
-                        className="w-[12rem] md:w-[15.4rem] max-h-full"
+                        className="w-[22rem] fix translate-x-8 -translate-y-3 md:-translate-0 md:w-[23rem] max-h-full "
                         alt="India"
                     />
                 </div>
