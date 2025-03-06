@@ -36,7 +36,7 @@ function Serviceprovider() {
 
                     {/* Right Side: MacBook Image */}
                     <div className="w-full max-w-lg">
-                        <img src={Macbook} alt="Macbook" className="w-full h-auto drop-shadow-lg " />
+                        <img src={Macbook} alt="Macbook" className="w-full h-auto shadow-2xl shadow-stone-800" />
                     </div>
                 </div>
             </div>
