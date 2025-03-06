@@ -2,6 +2,7 @@ import React from 'react'
 import india from '../../assets/india.png'
 import leftvector1 from '../../assets/left-vector1.png'
 import leftvector2 from '../../assets/left-vector2.png'
+import MapofIndia from '../../assets/Map of India.png'
 function HeroSection() {
     return (
         <div className='w-full h-full text-white space-y-6 '>
@@ -16,6 +17,10 @@ function HeroSection() {
             {/* <div>
                 <img src={leftvector1} className='absolute top-[23rem]  w-[41rem]' />
                 <img src={leftvector2} className='absolute top-[19rem] right-[55rem]  w-[43rem]' />
+            </div> */}
+            {/* <div>
+                <img src={MapofIndia} className='w-[90rem] absolute top-[6rem] left-[7rem]' />
+
             </div> */}
 
 

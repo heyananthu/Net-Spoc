@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../../assets/Logo.png";
 import { BsArrowRight } from "react-icons/bs";
-
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -119,9 +118,9 @@ function Navbar() {
                                 ${isOpen ? "flex" : "hidden md:flex"}`}
                     id="navbar-default"
                 >
-                    <ul className="text-[14px] font-normal flex flex-col items-center font-inter p-4 md:p-0 mt-4 
+                    <ul className="md:text-[14px] text-2xl font-normal flex flex-col items-center font-inter p-4 md:p-0 mt-4 
                                    md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 text-white
-                                   space-y-12 md:space-y-0 md:bg-none">
+                                   space-y-20 md:space-y-0 md:bg-none">
                         <li>
                             <a href="#" className="hover:text-gray-300 cursor-pointer">
                                 Objectives
@@ -133,12 +132,12 @@ function Navbar() {
                             </a>
                         </li>
                         <li
-                            className="flex justify-center items-center gap-2 px-4 py-2 rounded-xl 
-                                       bg-gradient-to-b from-transparent to-violet-500/40 text-white 
-                                       border-2 border-gray-300 hover:text-gray-300"
+                            className="flex justify-center items-center gap-2 px-6 py-2 rounded-xl 
+                                       bg-gradient-to-b from-transparent to-violet-500/50 
+                                       border-2 border-b-violet-500/50    border-slate-400  hover:text-gray-300"
                         >
-                            <a href="#" className="text-white cursor-pointer">Contact Us</a>
-                            <BsArrowRight />
+                            <a href="#" className="text-[#F4F0FF] cursor-pointer">Contact Us </a>
+                            <BsArrowRight className="text-[#F4F0FF]" />
                         </li>
                     </ul>
                 </div>

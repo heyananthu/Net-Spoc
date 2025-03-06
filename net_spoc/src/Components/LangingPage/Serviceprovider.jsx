@@ -8,7 +8,7 @@ function Serviceprovider() {
 
             {/* Background Image Wrapper */}
             <div
-                className="absolute inset-0  max-w-[47rem] md:w-[35rem] w-full h-full bg-cover bg-center bg-no-repeat "
+                className="absolute inset-0  max-w-[47rem]  w-full h-full bg-cover bg-center bg-no-repeat "
                 style={{ backgroundImage: `url(${bgimage})` }}
             ></div>
 

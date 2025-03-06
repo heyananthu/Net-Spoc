@@ -24,11 +24,11 @@ function CoreObjectives() {
     ];
 
     return (
-        <div className="relative w-full min-h-screen flex flex-col items-center justify-center text-white">
+        <div className="relative w-full min-h-screen bg-black flex flex-col items-center justify-center text-white">
 
             {/* Background Image Wrapper */}
             <div
-                className="absolute inset-0 bg-cover bg-center sm:bg-top bg-no-repeat"
+                className="absolute inset-0 h-full bg-cover bg-center sm:bg-top bg-no-repeat"
                 style={{ backgroundImage: `url(${bgimage})` }}
             ></div>
 
