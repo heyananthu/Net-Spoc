@@ -5,13 +5,15 @@ import HeroSection from "./Components/LangingPage/HeroSection";
 
 function NavHeader() {
     return (
-        <div className="relative w-full h-screen">
-            {/* Background Component (behind everything) */}
+        <div className="relative w-full min-h-screen overflow-hidden">
+            {/* Background Component (absolute so it scrolls with page) */}
             <BackgroundComponent />
 
-            {/* Content (Navbar & HeroSection on top of the background) */}
-            <Navbar />
-            <HeroSection />
+            {/* Foreground Components */}
+            <div className="relative z-10">
+                <Navbar />
+                <HeroSection />
+            </div>
         </div>
     );
 }

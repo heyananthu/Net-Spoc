@@ -22,7 +22,7 @@ function Footer() {
                 {/* Middle Section */}
                 <div className="text-white space-y-2 md:my-12">
                     <p className="text-gray-300 text-sm">Say hello to us</p>
-                    <p className="text-white text-lg font-semibold underline">hello@NETSPOC.com</p>
+                    <p className="text-white text-lg  underline">hello@netspoc.com</p>
                 </div>
 
                 {/* Right Section */}

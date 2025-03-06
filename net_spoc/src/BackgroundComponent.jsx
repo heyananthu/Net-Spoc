@@ -5,7 +5,7 @@ import india from "./assets/india.png";
 
 function BackgroundComponent() {
     return (
-        <div className="absolute inset-0 w-full h-screen bg-black overflow-hidden  -z-10">
+        <div className="absolute inset-0 w-full h-full bg-black overflow-hidden  -z-10">
             <div className="relative flex justify-between h-full">
                 {/* Left Image */}
                 <img

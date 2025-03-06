@@ -133,7 +133,7 @@ function Navbar() {
                             </a>
                         </li>
                         <li
-                            className="flex justify-center items-center gap-2 px-4 py-1 rounded-xl 
+                            className="flex justify-center items-center gap-2 px-4 py-2 rounded-xl 
                                        bg-gradient-to-b from-transparent to-violet-500/40 text-white 
                                        border-2 border-gray-300 hover:text-gray-300"
                         >
