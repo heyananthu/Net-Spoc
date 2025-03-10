@@ -8,7 +8,7 @@ function Serviceprovider() {
 
             {/* Background Image Wrapper */}
             <div
-                className="absolute inset-0  max-w-[47rem]  w-full h-full bg-cover bg-center bg-no-repeat "
+                className="absolute inset-0  max-w-[49rem] h-full bg-cover bg-center bg-no-repeat "
                 style={{ backgroundImage: `url(${bgimage})` }}
             ></div>
 
@@ -16,8 +16,8 @@ function Serviceprovider() {
             <div className="absolute inset-0 bg-black/50 z-[-1]"></div>
 
             {/* Content */}
-            <div className="relative z-10 w-full max-w-7xl px-4 md:px-8 py-16">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+            <div className="relative z-10  max-w-7xl px-4 md:px-8 py-16">
+                <div className="grid grid-cols-1  md:grid-cols-2  gap-10 items-center">
 
                     {/* Left Side: Text */}
                     <div className="text-left max-w-lg space-y-4">

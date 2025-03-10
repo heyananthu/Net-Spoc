@@ -25,19 +25,22 @@ function CoreObjectives() {
 
     return (
         <div className="relative w-full min-h-screen bg-black flex flex-col items-center justify-center text-white">
-
-            {/* Background Image Wrapper */}
+            
+            {/* Background Image - Now Fully Responsive */}
             <div
-                className="absolute inset-0 h-full bg-cover bg-center sm:bg-top bg-no-repeat"
-                style={{ backgroundImage: `url(${bgimage})` }}
+                className="absolute inset-0 w-full h-full bg-cover bg-center sm:bg-top bg-no-repeat"
+                style={{
+                    backgroundImage: `url(${bgimage})`
+                }}
             ></div>
-
 
             {/* Dark Overlay for Readability */}
             <div className="absolute inset-0 bg-black/50"></div>
 
             {/* Content */}
             <div className="relative z-10 w-full max-w-7xl px-4 md:px-8 py-16 gap-y-12">
+                
+                {/* Heading */}
                 <div className="text-center mb-10 mt-32">
                     <h1 className="font-audiowide text-5xl">Core Objectives</h1>
                 </div>
@@ -57,17 +60,19 @@ function CoreObjectives() {
                 </div>
 
                 {/* Extra Section */}
-                <div className='text-center text-white mt-32 space-y-10 px-4'>
-                    <h1 className='font-audiowide text-3xl sm:text-5xl'>Enhancing Network Fault Detection <br /> and Recovery with AI Agents</h1>
-                    <p className='font-poppins text-gray-100 text-sm sm:text-base leading-relaxed max-w-4xl mx-auto'>
-                        We all know that network faults in telecom can be a nightmare—one little glitch and suddenly everything<br />
-                        goes haywire! With networks getting more complex, even small problems can snowball into big issues.
-                        But what if there was a way to fix these problems instantly, with just the click of a button? Enter AI-powered
-                        network fault detection and recovery—where Agentic AI doesn’t just find the problems, it fixes them too,
-                        faster and smarter than ever before. In this post, we’re diving into how this technology is changing the
-                        game and making telecom networks more reliable than ever!
+                <div className="text-center text-white mt-32 space-y-10 px-4">
+                    <h1 className="font-audiowide text-3xl sm:text-5xl">
+                        Enhancing Network Fault Detection <br /> and Recovery with AI Agents
+                    </h1>
+                    <p className="font-poppins text-gray-100 text-sm sm:text-base leading-relaxed max-w-4xl mx-auto">
+                        We all know that network faults in telecom can be a nightmare—one little glitch and suddenly
+                        everything goes haywire! With networks getting more complex, even small problems can snowball into
+                        big issues. But what if there was a way to fix these problems instantly, with just the click of a
+                        button? Enter AI-powered network fault detection and recovery—where Agentic AI doesn’t just find
+                        the problems, it fixes them too, faster and smarter than ever before. In this post, we’re diving
+                        into how this technology is changing the game and making telecom networks more reliable than ever!
                     </p>
-                    <button className='rounded-xl bg-gradient-to-b from-transparent to-violet-500/40 text-purple-100 px-6 py-2 border border-gray-500 hover:text-gray-300 transition-all'>
+                    <button className="rounded-xl bg-gradient-to-b from-transparent to-violet-500/40 text-purple-100 px-6 py-2 border border-gray-500 hover:text-gray-300 transition-all">
                         Book a Demo →
                     </button>
                 </div>

@@ -4,13 +4,16 @@ import bgimage from '../../assets/Emplyee-bg.png';
 
 function EmployeeSection() {
     return (
-        <div>
+        <div className='relative'>
             <div className='relative bg-black h-[44rem] max-w-screen flex flex-col items-center'>
-                {/* ✅ Background Image - Positioned Right & Responsive */}
+                {/* ✅ Background Image - Positioned Right & Brightness Adjusted */}
                 <div
-                    className="absolute right-0 top-0 lg:w-1/2 w-full h-full bg-cover bg-right bg-no-repeat opacity-30"
+                    className="absolute right-0 top-0 lg:w-1/2 w-full h-full bg-cover bg-right bg-no-repeat brightness-160 opacity-50"
                     style={{ backgroundImage: `url(${bgimage})` }}
                 ></div>
+
+                {/* Dark Overlay for Better Readability */}
+                <div className="absolute inset-0 bg-black/40 lg:w-1/2"></div>
 
                 {/* Main Content */}
                 <div className='z-10 flex flex-col items-center text-center max-w-screen-xl px-4 lg:px-0'>
@@ -29,8 +32,8 @@ function EmployeeSection() {
                     </div>
                 </div>
             </div>
-
         </div>
+
     );
 }
 

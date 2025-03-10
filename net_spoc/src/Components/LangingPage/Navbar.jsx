@@ -134,7 +134,7 @@ function Navbar() {
                         <li
                             className="flex justify-center items-center gap-2 px-6 py-2 rounded-xl 
                                        bg-gradient-to-b from-transparent to-violet-500/50 
-                                       border-2 border-b-violet-500/50    border-slate-400  hover:text-gray-300"
+                                       border-2  border-slate-400  hover:text-gray-300"
                         >
                             <a href="#" className="text-[#F4F0FF] cursor-pointer">Contact Us </a>
                             <BsArrowRight className="text-[#F4F0FF]" />
