@@ -8,7 +8,7 @@ import youtube from '../../assets/youtube.png';
 
 function Footer() {
     return (
-        <div className="bg-gradient-to-t from-[#023120] via-black to-black w-full mx-auto px-10 font-poppins">
+        <div className="bg-gradient-to-t from-[#023120] via-black to-black  w-full mx-auto px-10 font-poppins">
             <div className="max-w-7xl mx-auto grid items-center grid-cols-1 space-y-12 md:flex md:flex-row md:justify-between md:items-center py-3">
                 {/* Left Section */}
                 <div className="text-white space-y-24">

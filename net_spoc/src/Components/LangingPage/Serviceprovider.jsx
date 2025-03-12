@@ -4,7 +4,7 @@ import Macbook from "../../assets/Macbook.png";
 
 function Serviceprovider() {
     return (
-        <div className="relative max-w-screen min-h-screen flex flex-col items-center justify-center text-white bg-black">
+        <div className="relative max-w-screen min-h-screen flex flex-col items-center justify-center text-white bg-black ">
 
             {/* Background Image Wrapper */}
             <div
