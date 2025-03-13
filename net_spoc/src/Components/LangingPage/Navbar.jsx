@@ -76,7 +76,8 @@ function Navbar() {
             <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
                 {/* Logo */}
                 <div>
-                    <img src={Logo} className="w-[12rem]" alt="Logo" />
+                    <Link to={'/'}>
+                    <img src={Logo} className="w-[12rem]" alt="Logo" /> </Link>
                 </div>
 
                 {/* Mobile Menu Button */}

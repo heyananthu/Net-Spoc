@@ -3,7 +3,7 @@ import Navbar from '../../LangingPage/Navbar'
 import Hero from './Hero'
 import SecondSection from './SecondSection';
 import FormSection from './FormSection';
-import Footer from '../../LangingPage/Footer';
+import Footer from './Footer';
 
 function ContactUs() {
     return (
