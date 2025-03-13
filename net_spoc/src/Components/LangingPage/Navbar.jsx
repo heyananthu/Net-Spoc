@@ -77,7 +77,7 @@ function Navbar() {
                 {/* Logo */}
                 <div>
                     <Link to={'/'}>
-                    <img src={Logo} className="w-[12rem]" alt="Logo" /> </Link>
+                        <img src={Logo} className="w-[12rem]" alt="Logo" /> </Link>
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -133,22 +133,24 @@ function Navbar() {
                                 About Us
                             </a>
                         </li>
-                        <li
-                            className="cursor-pointer flex justify-center items-center gap-2 px-6 py-2 rounded-xl 
+                        <Link to={'/contactus'}>
+                            <li
+                                className="cursor-pointer flex justify-center items-center gap-2 px-6 py-2 rounded-xl 
                                        bg-gradient-to-b from-transparent to-violet-500/50 
-                                       border-2  border-slate-400  hover:text-gray-300"
-                        >
-                            <Link to={'/contactus'} className="text-[#F4F0FF] cursor-pointer">Contact Us </Link>
-                            <BsArrowRight className="text-[#F4F0FF]" />
-                        </li>
-                        <li className="flex justify-center items-center gap-2 px-9 py-2 rounded-xl 
+                                       border-2  border-slate-400  hover:text-gray-300 text-[#F4F0FF] "
+                            >
+                                Contact Us
+                                <BsArrowRight className="text-[#F4F0FF]" />
+                            </li></Link>
+                        <Link to={'/login'}>
+                            <li className="flex justify-center items-center gap-2 px-9 py-2 rounded-xl 
                                        hover:bg-gradient-to-b from-transparent to-violet-500/50 
-                                       border-2  border-slate-400  hover:text-gray-300 cursor-pointer">Login</li>
+                                       border-2  border-slate-400  hover:text-gray-300 cursor-pointer">Login</li></Link>
                     </ul>
                 </div>
             </div>
         </nav>
-    );  
+    );
 }
 
 export default Navbar;

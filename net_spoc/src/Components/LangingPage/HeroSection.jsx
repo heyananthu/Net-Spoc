@@ -5,7 +5,7 @@ import waveright from '../../assets/waveright.png'
 function HeroSection() {
     return (
         <div className='w-full h-full text-white space-y-6 '>
-            <div className='text-center space-y-4 mt-5 md:mt-5 p-6'>
+            <div className='text-center space-y-4 mt-10 md:mt-5 p-6'>
                 <h1 class="font-audiowide font-normal text-2xl md:text-6xl text-center">Elevating Connectivity,<br /> Redefining Excellence.</h1>
                 <p className='md:text-[13px] text-[10px] font-poppins font-light text-gray-100'>Experience the NetSpoc difference—seamless connectivity with reliability <br />and transparency. Stay confidently connected.</p>
             </div>
@@ -13,7 +13,7 @@ function HeroSection() {
 
 
                 <div className='flex justify-center'>
-                    <img src={india} className='md:w-[24rem] md:h-[28rem] w-[18rem] h-[20rem] translate-x-6 -translate-y-11 md:-translate-y-12 ' />
+                    <img src={india} className='md:w-[24rem] md:h-[28rem] w-[18rem] h-[20rem] translate-x-6 md:-translate-y-12 ' />
                 </div>
 
                 {/* <div className='absolute left-0 top-0'>

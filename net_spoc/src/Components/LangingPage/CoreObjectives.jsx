@@ -25,15 +25,17 @@ function CoreObjectives() {
     ];
 
     return (
-        <div className="relative w-full min-h-screen bg-black flex flex-col items-center justify-center text-white">
+        <div className="relative w-full min-h-screen bg-black flex flex-col items-center justify-center text-white bg-cover bg-right" style={{
+            backgroundImage: `url(${bgimage})`
+        }}>
             
             {/* Background Image - Now Fully Responsive */}
-            <div
-                className="absolute inset-0 w-full h-full bg-cover bg-center sm:bg-top bg-no-repeat"
+            {/* <div
+                className="absolute inset-0 w-full h-full bg-cover bg-right sm:bg-top bg-no-repeat"
                 style={{
                     backgroundImage: `url(${bgimage})`
                 }}
-            ></div>
+            ></div> */}
 
             {/* Dark Overlay for Readability */}
             <div className="absolute inset-0 bg-black/50"></div>
