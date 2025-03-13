@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Logo from "../../assets/Logo.png";
 import { BsArrowRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -72,7 +73,7 @@ function Navbar() {
         //     </div>
         // </nav>
         <nav className="bg-transparent w-full h-[5rem] p-3 relative z-20">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
                 {/* Logo */}
                 <div>
                     <img src={Logo} className="w-[12rem]" alt="Logo" />
@@ -132,18 +133,21 @@ function Navbar() {
                             </a>
                         </li>
                         <li
-                            className="flex justify-center items-center gap-2 px-6 py-2 rounded-xl 
+                            className="cursor-pointer flex justify-center items-center gap-2 px-6 py-2 rounded-xl 
                                        bg-gradient-to-b from-transparent to-violet-500/50 
                                        border-2  border-slate-400  hover:text-gray-300"
                         >
-                            <a href="#" className="text-[#F4F0FF] cursor-pointer">Contact Us </a>
+                            <Link to={'/contactus'} className="text-[#F4F0FF] cursor-pointer">Contact Us </Link>
                             <BsArrowRight className="text-[#F4F0FF]" />
                         </li>
+                        <li className="flex justify-center items-center gap-2 px-9 py-2 rounded-xl 
+                                       hover:bg-gradient-to-b from-transparent to-violet-500/50 
+                                       border-2  border-slate-400  hover:text-gray-300 cursor-pointer">Login</li>
                     </ul>
                 </div>
             </div>
         </nav>
-    );
+    );  
 }
 
 export default Navbar;
