@@ -1,8 +1,9 @@
 import React from "react";
 import bgimage from "../../assets/serviceprovider-bgimg.png";
 import Macbook from "../../assets/Macbook.png";
-
+import { useNavigate } from "react-router-dom";
 function Serviceprovider() {
+    const navigate = useNavigate();
     return (
         <div className="relative max-w-screen min-h-screen flex flex-col items-center justify-center text-white bg-black ">
 
@@ -29,7 +30,7 @@ function Serviceprovider() {
                             service provider. At NetSpoc, we're <br /> committed to
                             delivering excellence.
                         </p>
-                        <button className="mt-6 rounded-xl bg-gradient-to-b from-transparent to-violet-500/40 text-purple-100 px-6 py-2 border border-gray-500 hover:text-gray-300 transition">
+                        <button className="mt-6 rounded-xl bg-gradient-to-b from-transparent to-violet-500/40 text-purple-100 px-6 py-2 border border-gray-500 hover:text-gray-300 transition" onClick={() => { navigate('/contactus') }}>
                             Book a Demo →
                         </button>
                     </div>
