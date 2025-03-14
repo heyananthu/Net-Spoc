@@ -76,7 +76,10 @@ function FormSection() {
                                     placeholder='Name'
                                     name="name"
                                     value={name}
-                                    onChange={(e) => { setName(e.target.value) }}
+                                    onChange={(e) => {
+                                        const value = e.target.value.replace(/[^A-Za-z\s]/g, ""); // Allow only letters and spaces
+                                        setName(value);
+                                    }}
                                     required
                                     className='p-4 py-4 border-1 w-full  border-white  rounded-md bg-transparent text-white placeholder-gray-300 focus:border-2 focus:border-violet-600 pl-12'
                                 />

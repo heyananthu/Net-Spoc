@@ -24,12 +24,12 @@ function Footer() {
 
                 {/* Middle Section */}
                 <div className="text-white space-y-2 md:my-12">
-                    <p className="text-gray-300 text-sm">Say hello to us</p>
+                    <p className="text-white text-sm font-light">Say hello to us</p>
                     <p className="text-white text-lg  underline">hello@netspoc.com</p>
                 </div>
 
                 {/* Right Section */}
-                <div className="space-y-24 md:mt-16">
+                <div className="space-y-28 md:mt-24">
                     <ul className="text-white space-y-5 text-sm">
                         <li className='cursor-pointer'>About Us</li>
                         <div className='cursor-pointer'>
@@ -41,7 +41,7 @@ function Footer() {
                         </div>
                     </ul>
 
-                    <div className="flex gap-5 md:justify-end mt-3 md:mt-36">
+                    <div className="flex gap-5 md:justify-end ">
                         <img src={fb} alt="Facebook" className="w-7 h-7" />
                         <img src={x} alt="X (Twitter)" className="w-7 h-7" />
                         <img src={linkedin} alt="LinkedIn" className="w-7 h-7" />
