@@ -5,6 +5,7 @@ import x from '../../assets/x.png';
 import instagram from '../../assets/Instagram.png';
 import linkedin from '../../assets/linkedin.png';
 import youtube from '../../assets/youtube.png';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -28,9 +29,10 @@ function Footer() {
                 {/* Right Section */}
                 <div className="space-y-24 md:mt-16">
                     <ul className="text-white space-y-5 text-sm">
-                        <li>About Us</li>
-                        <li>Privacy Policy</li>
-                        <li>Terms & Conditions</li>
+                        <li className='cursor-pointer'>About Us</li>
+                        <div className='cursor-pointer'>
+                        <Link to={'/privacypolicy'}><li>Privacy Policy</li></Link></div>
+                        <li className='cursor-pointer'>Terms & Conditions</li>
                     </ul>
 
                     <div className="flex gap-5 md:justify-end mt-3 md:mt-36">

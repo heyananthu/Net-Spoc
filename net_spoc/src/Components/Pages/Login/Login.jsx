@@ -56,7 +56,7 @@ function Login() {
 
                             {/* Forgot Password */}
                             <div className="flex items-center justify-end text-white">
-                                <a href="#" className="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">Forgot password?</a>
+                                <a href="#" className="text-sm font-medium text-primary-600 font-poppins hover:underline dark:text-primary-500">Forgot password?</a>
                             </div>
 
                             {/* Sign In Button */}

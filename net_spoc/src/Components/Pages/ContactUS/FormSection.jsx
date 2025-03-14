@@ -80,7 +80,7 @@ function FormSection() {
                                     required
                                     className='p-4 py-4 border-1 w-full  border-white  rounded-md bg-transparent text-white placeholder-gray-300 focus:border-2 focus:border-violet-600 pl-12'
                                 />
-                                <RxPerson className='absolute left-4 top-1/2 transform -translate-y-1/2 text-white size-6' />
+                                <RxPerson className='absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500 size-6' />
                             </div>
 
                             <div className='relative w-full'>
@@ -93,20 +93,23 @@ function FormSection() {
                                     required
                                     className='p-4 py-4 border-2 w-full  border-white  rounded-md bg-transparent text-white placeholder-gray-300 focus:border-violet-600 pl-12'
                                 />
-                                <MdEmail className='absolute left-4 top-1/2 transform -translate-y-1/2 text-white size-6' />
+                                <MdEmail className='absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500 size-6' />
                             </div>
 
                             <div className='relative w-full'>
                                 <input
-                                    type='text'
+                                    type='tel'
                                     placeholder='Phone'
                                     name="phone"
                                     value={phone}
-                                    onChange={(e) => { setPhone(e.target.value) }}
+                                    onChange={(e) => {
+                                        const numericValue = e.target.value.replace(/\D/g, ""); // Remove non-numeric characters
+                                        setPhone(numericValue);
+                                    }}
                                     required
                                     className='p-4 py-4 border-2 w-full  border-white  rounded-md bg-transparent text-white placeholder-gray-300 focus:border-violet-600 pl-12'
                                 />
-                                <MdOutlineLocalPhone className='absolute left-4 top-1/2 transform -translate-y-1/2 text-white size-6' />
+                                <MdOutlineLocalPhone className='absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500 size-6' />
                             </div>
 
                             <div className='relative w-full'>
@@ -119,7 +122,7 @@ function FormSection() {
                                     required
                                     className='p-4 py-4 border-2 w-full  border-white  rounded-md bg-transparent text-white placeholder-gray-300 focus:border-violet-600 pl-12'
                                 />
-                                <IoBookOutline className='absolute left-4 top-1/2 transform -translate-y-1/2 text-white size-6' />
+                                <IoBookOutline className='absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500 size-6' />
                             </div>
 
                             <div className='relative w-full'>
@@ -132,7 +135,7 @@ function FormSection() {
                                     required
                                     className='p-4 py-4 border-2 w-full  border-white  rounded-md bg-transparent text-white placeholder-gray-300 focus:border-violet-600 pl-12'
                                 />
-                                <PiNotePencil className='absolute left-4 top-1/3 transform -translate-y-1/2 text-white size-6' />
+                                <PiNotePencil className='absolute left-4 top-1/3 transform -translate-y-1/2 text-gray-500 size-6' />
                             </div>
 
                             <button type="submit" className='cursor-pointer flex justify-center items-center gap-2 w-full h-[4rem] rounded-lg 
