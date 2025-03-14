@@ -33,7 +33,10 @@ function Footer() {
                         <li className='cursor-pointer'>About Us</li>
                         <div className='cursor-pointer'>
                             <Link to={'/privacypolicy'}><li>Privacy Policy</li></Link></div>
-                        <li className='cusrsor-pointer'>Terms & Conditions</li>
+                        <div className='cursor-pointer'>
+                            <Link to={'/Terms and Conditions'}>
+                                <li>Terms & Conditions</li></Link>
+                        </div>
                     </ul>
 
                     <div className="flex gap-5 mt-3 md:mt-0">
