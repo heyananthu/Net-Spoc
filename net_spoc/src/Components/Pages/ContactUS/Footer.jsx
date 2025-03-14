@@ -30,9 +30,10 @@ function Footer() {
                 {/* Right Section */}
                 <div className="space-y-24 md:mt-[9rem]">
                     <ul className="text-white space-y-5 text-sm">
-                        <li>About Us</li>
-                        <li>Privacy Policy</li>
-                        <li>Terms & Conditions</li>
+                        <li className='cursor-pointer'>About Us</li>
+                        <div className='cursor-pointer'>
+                            <Link to={'/privacypolicy'}><li>Privacy Policy</li></Link></div>
+                        <li className='cusrsor-pointer'>Terms & Conditions</li>
                     </ul>
 
                     <div className="flex gap-5 mt-3 md:mt-0">

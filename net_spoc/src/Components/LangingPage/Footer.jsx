@@ -13,7 +13,9 @@ function Footer() {
             <div className="max-w-7xl mx-auto grid items-center grid-cols-1 space-y-12 md:flex md:flex-row md:justify-between md:items-center py-3">
                 {/* Left Section */}
                 <div className="text-white space-y-24">
-                    <img src={Logo} alt="Logo" className="w-52" />
+                    <div>
+                        <Link to={'/'}>
+                            <img src={Logo} alt="Logo" className="w-52" /></Link></div>
                     <h1 className="font-audiowide text-6xl text-white">
                         Connect <br /> with us
                     </h1>
@@ -31,8 +33,12 @@ function Footer() {
                     <ul className="text-white space-y-5 text-sm">
                         <li className='cursor-pointer'>About Us</li>
                         <div className='cursor-pointer'>
-                        <Link to={'/privacypolicy'}><li>Privacy Policy</li></Link></div>
-                        <li className='cursor-pointer'>Terms & Conditions</li>
+                            <Link to={'/privacypolicy'}><li>Privacy Policy</li></Link>
+                        </div>
+                        <div className='cursor-pointer'>
+                            <Link to={'/Terms and Conditions'}>
+                                <li>Terms & Conditions</li></Link>
+                        </div>
                     </ul>
 
                     <div className="flex gap-5 md:justify-end mt-3 md:mt-36">
@@ -43,8 +49,8 @@ function Footer() {
                         <img src={youtube} alt="YouTube" className="w-7 h-7" />
                     </div>
                 </div>
-            </div>
-        </div>
+            </div >
+        </div >
     );
 }
 

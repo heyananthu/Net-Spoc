@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import ContactUs from './Components/Pages/ContactUS/ContactUs'
 import Login from './Components/Pages/Login/Login'
 import PrivacyPolicy from './Components/Pages/Privacy Policy/PrivacyPolicy'
+import TermsandConditions from './Components/Pages/Terms and Conditions/TermsandConditions'
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
           } />
           <Route path='/contactus' element={<ContactUs />} />
           <Route path='/login' element={<Login />} />
-          {/* <Route path='/privacypolicy' element={<PrivacyPolicy/>} /> */}
+          <Route path='/privacypolicy' element={<PrivacyPolicy />} />
+          <Route path='/Terms and Conditions' element={<TermsandConditions/>} />
         </Routes>
       </div>
     </BrowserRouter>

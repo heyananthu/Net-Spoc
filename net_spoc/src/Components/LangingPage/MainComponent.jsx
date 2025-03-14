@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Navbar from "./Navbar";
 import Mainleft from "../../assets/Mainleft.png";
 import Mainright from "../../assets/Mainright.png";
@@ -11,6 +11,9 @@ import NavHeader from "../../NavHeader";
 import Footer from "./Footer";
 
 function MainComponent() {
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scrolls to top when the component mounts
+      }, []);
     return (
         <div>
             <NavHeader />
