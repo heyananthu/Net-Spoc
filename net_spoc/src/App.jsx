@@ -17,10 +17,10 @@ function App() {
           <Route path='/' element={<MainComponent />
           } />
           <Route path='/contactus' element={<ContactUs />} />
-          <Route path='/login' element={<Login />} />
+          {/* <Route path='/login' element={<Login />} /> */}
           <Route path='/privacypolicy' element={<PrivacyPolicy />} />
-          <Route path='/Terms and Conditions' element={<TermsandConditions/>} />
-          <Route path='/refund & cancellation' element={<Refund/>} />
+          <Route path='/Terms and Conditions' element={<TermsandConditions />} />
+          <Route path='/refund & cancellation' element={<Refund />} />
         </Routes>
       </div>
     </BrowserRouter>
