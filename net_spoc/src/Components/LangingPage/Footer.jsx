@@ -29,9 +29,9 @@ function Footer() {
                 </div>
 
                 {/* Right Section */}
-                <div className="space-y-28 md:mt-16">
+                <div className="space-y-26 md:mt-24">
                     <ul className="text-white space-y-5 text-sm">
-                        <li className='cursor-pointer'>About Us</li>
+                        {/* <li className='cursor-pointer'>About Us</li> */}
                         <div className='cursor-pointer'>
                             <Link to={'/privacypolicy'}><li>Privacy Policy</li></Link>
                         </div>
