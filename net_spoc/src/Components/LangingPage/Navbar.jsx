@@ -185,15 +185,15 @@ function Sidebar({ isOpen, toggle }) {
             <ul className="md:text-[14px] text-xl font-normal flex flex-col items-center font-inter p-4 md:p-0  mt-24
                                 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 text-white
                                     space-y-20 md:space-y-0 md:bg-none">
-                <li className="hover:text-gray-300 cursor-pointer"><Link to="#" onClick={toggle}>Objectives</Link></li>
-                <li ><Link to="#" onClick={toggle}>About Us</Link></li>
+                {/* <li className="hover:text-gray-300 cursor-pointer"><Link to="#" onClick={toggle}>Objectives</Link></li> */}
+                {/* <li ><Link to="#" onClick={toggle}>About Us</Link></li> */}
                 <li>
                     <Link to="/contactus" className="flex justify-center items-center gap-2 px-2 py-2 rounded-xl bg-gradient-to-b from-transparent to-violet-500/50 border-2 border-slate-400 text-[#F4F0FF] hover:text-gray-300" onClick={toggle}>
                         Contact Us <BsArrowRight className="text-[#F4F0FF]" />
                     </Link>
                 </li>
                 <li>
-                    <Link to="https://team.netspoc.com/login?redirect-to=http%3A%2F%2Fteam.netspoc.com%2Fapi%2Fmethod%2Ffrappe.integrations.oauth2.authorize%3Fresponse_type%3Dcode%26client_id%3Dc02690d625%26code_challenge_method%3Dplain%26code_challenge%3Dnetspoc%26redirect_uri%3Dhttps%3A%2F%2Fnetspoc.com%2Flogin#login" className="flex justify-center items-center gap-2 px-8 py-2 rounded-xl border-2 border-slate-400 hover:bg-gradient-to-b from-transparent to-violet-500/50 hover:text-gray-300" onClick={toggle}>
+                    <Link to="https://team.netspoc.com/login?redirect-to=http%3A%2F%2Fteam.netspoc.com%2Fapi%2Fmethod%2Ffrappe.integrations.oauth2.authorize%3Fresponse_type%3Dcode%26client_id%3Dc02690d625%26code_challenge_method%3Dplain%26code_challenge%3Dnetspoc%26redirect_uri%3Dhttps%3A%2F%2Fnetspoc.com%2Flogin#login" className="flex justify-center items-center gap-2 px-8 py-2 rounded-xl hover:border-2 border-slate-400 hover:bg-gradient-to-b from-transparent to-violet-500/50 hover:text-gray-300" onClick={toggle}>
                         Login
                     </Link>
                 </li>
@@ -218,8 +218,8 @@ function Navbar() {
 
                 {/* Desktop Navbar */}
                 <div className="hidden md:flex md:items-center md:justify-end  space-x-8 text-white font-inter md:text-[14px] text-2xl font-normal">
-                    <Link to="#" className="hover:text-gray-300 cursor-pointer">Objectives</Link>
-                    <Link to="#" className="hover:text-gray-300 cursor-pointer">About Us</Link>
+                    {/* <Link to="#" className="hover:text-gray-300 cursor-pointer">Objectives</Link> */}
+                    {/* <Link to="#" className="hover:text-gray-300 cursor-pointer">About Us</Link> */}
                     <Link to="/contactus" className="cursor-pointer flex justify-center items-center gap-2 px-6 py-2 rounded-xl 
                                        bg-gradient-to-b from-transparent to-violet-500/50 
                                        border-2  border-slate-400  hover:text-gray-300 text-[#F4F0FF] ">
@@ -228,7 +228,7 @@ function Navbar() {
                     <Link to="https://team.netspoc.com/login?redirect-to=http%3A%2F%2Fteam.netspoc.com%2Fapi%2Fmethod%2Ffrappe.integrations.oauth2.authorize%3Fresponse_type%3Dcode%26client_id%3Dc02690d625%26code_challenge_method%3Dplain%26code_challenge%3Dnetspoc%26redirect_uri%3Dhttps%3A%2F%2Fnetspoc.com%2Flogin#login"
                         className="flex justify-center items-center gap-2 px-9 py-2 rounded-xl 
                     hover:bg-gradient-to-b from-transparent to-violet-500/50 
-                    border-2  border-slate-400  hover:text-gray-300 cursor-pointer">
+                    hover:border-2  border-slate-400  hover:text-gray-300 cursor-pointer">
                         Login
                     </Link>
                 </div>
