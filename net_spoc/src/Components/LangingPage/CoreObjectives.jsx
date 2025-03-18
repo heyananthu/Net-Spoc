@@ -75,7 +75,7 @@ function CoreObjectives() {
                         the problems, it fixes them too, faster and smarter than ever before. In this post, we’re diving
                         into how this technology is changing the game and making telecom networks more reliable than ever!
                     </p>
-                    <button className="rounded-xl bg-gradient-to-b from-transparent to-violet-500/40 text-purple-100 px-6 py-2 border border-gray-500 hover:text-gray-300 transition-all" onClick={()=>{navigate('/contactus')}}>
+                    <button className="rounded-xl bg-gradient-to-b from-transparent to-violet-500/40 text-purple-100 px-6 py-2 border border-gray-500 hover:text-gray-300 transition-all hover:scale-98 duration-200" onClick={()=>{navigate('/contactus')}}>
                         Book a Demo →
                     </button>
                 </div>
