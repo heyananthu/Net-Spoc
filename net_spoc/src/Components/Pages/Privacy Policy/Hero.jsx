@@ -9,7 +9,7 @@ function Hero() {
                 <h1 className='font-audiowide text-4xl mt-12 text-center'>Privacy Policy</h1>
                 <div className='space-y-6'>
                     <div className='space-y-6'>
-                        <h1 className='font-audiowide text-3xl mt-12 text-center md:text-left'>Welcome to NetSpoc!</h1>
+                        <h1 className='font-audiowide text-3xl mt-12 text-center md:text-left'>Welcome to NETSPOC !</h1>
                         <p className='font-poppins font-light'>We respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and protect your information when you use our internet service.</p>
                     </div>
                     <div className='font-poppins space-y-6'>

@@ -5,7 +5,7 @@ function Hero() {
     const data = [
         {
             title: "Service Description",
-            text: "NetSpoc provides internet access services to residential and business customers. We offer a variety of plans with different speeds, data allowances, and features. You can find more information about our plans on our website."
+            text: "NETSPOC provides internet access services to residential and business customers. We offer a variety of plans with different speeds, data allowances, and features. You can find more information about our plans on our website."
         },
         {
             title: "Installation and Activation",
@@ -68,8 +68,8 @@ function Hero() {
                 <h1 className='font-audiowide text-4xl mt-12 text-center'>Terms and Conditions</h1>
                 <div className='space-y-6'>
                     <div className='space-y-6'>
-                        <h1 className='font-audiowide text-3xl mt-12 text-center md:text-left'>Welcome to NetSpoc!</h1>
-                        <p className='font-poppins'>These Terms and Conditions govern your use of our internet service provided by NetSpoc. By using the Service, you agree to be bound by these Terms.</p>
+                        <h1 className='font-audiowide text-3xl mt-12 text-center md:text-left'>Welcome to NETSPOC !</h1>
+                        <p className='font-poppins'>These Terms and Conditions govern your use of our internet service provided by NETSPOC. By using the Service, you agree to be bound by these Terms.</p>
                     </div>
 
                     <div className='mx-4'>

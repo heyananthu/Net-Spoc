@@ -17,7 +17,7 @@ function Hero() {
                     <h1 className='font-audiowide text-5xl'>Contact Us</h1>
                 </div>
                 <div className='mt-2'>
-                    <p className='font-poppins font-light'>Get in Touch with NetSpoc - Your Partner<br /> for internet Managed Services</p>
+                    <p className='font-poppins font-light'>Get in Touch with NETSPOC - Your Partner<br /> for internet Managed Services</p>
                 </div>
             </div>
 

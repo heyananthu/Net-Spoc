@@ -26,8 +26,8 @@ function Serviceprovider() {
                             The Largest <br /> Premier Internet <br /> Managed Service <br /> Provider.
                         </h1>
                         <p className="text-lg font-poppins text-gray-300">
-                            Welcome to NetSpoc, your premier internet <br /> managed
-                            service provider. At NetSpoc, we're <br /> committed to
+                            Welcome to NETSPOC, your premier internet <br /> managed
+                            service provider. At NETSPOC, we're <br /> committed to
                             delivering excellence.
                         </p>
                         <button className="mt-6 rounded-xl bg-gradient-to-b from-transparent to-violet-500/40 text-purple-100 px-6 py-2 border border-gray-500 hover:text-gray-300 transition hover:scale-98 duration-200" onClick={() => { navigate('/contactus') }}>

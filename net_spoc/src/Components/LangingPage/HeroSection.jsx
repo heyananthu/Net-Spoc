@@ -7,7 +7,7 @@ function HeroSection() {
         <div className='w-full h-full text-white space-y-6 '>
             <div className='text-center space-y-4 mt-10 md:mt-5 p-6'>
                 <h1 class="font-audiowide font-normal text-2xl md:text-6xl text-center">Elevating Connectivity,<br /> Redefining Excellence.</h1>
-                <p className='md:text-[13px] text-[10px] font-poppins font-light text-gray-100'>Experience the NetSpoc difference—seamless connectivity with reliability <br />and transparency. Stay confidently connected.</p>
+                <p className='md:text-[13px] text-[10px] font-poppins font-light text-gray-100'>Experience the NETSPOC difference—seamless connectivity with reliability <br />and transparency. Stay confidently connected.</p>
             </div>
             <div>
 

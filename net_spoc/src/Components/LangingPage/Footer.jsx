@@ -19,13 +19,13 @@ function Footer() {
                     <h1 className="font-audiowide text-6xl text-white">
                         Connect <br /> with us
                     </h1>
-                    <p className='text-nowrap'>©2024 Netspoc, Inc. All rights reserved</p>
+                    <p className='text-nowrap'>©2025 NETSPOC, Inc. All rights reserved</p>
                 </div>
 
                 {/* Middle Section */}
                 <div className="text-white space-y-2 md:my-12">
                     <p className="text-white text-sm font-light">Say hello to us</p>
-                    <p className="text-white text-lg  underline">hello@netspoc.com</p>
+                    <p className="text-white text-lg  underline cursor-pointer">care@netspoc.com</p>
                 </div>
 
                 {/* Right Section */}
