@@ -17,7 +17,7 @@ function SecondSection() {
                         </div>
                         <div>
                             <p>WhatsApp Number</p>
-                            <p className='font-bold text-lg'>+91 984 540-5405</p>
+                            <p className='font-bold text-lg'>+91 968 669-7700</p>
                         </div>
                     </div>
                 </div>
