@@ -68,11 +68,7 @@ function CoreObjectives() {
                         Revolutionizing Network Fault Detection <br /> and Recovery with AI
                     </h1>
                     <p className="font-poppins text-gray-100 text-sm sm:text-base leading-relaxed max-w-4xl mx-auto">
-                        Network failures in telecom can disrupt operations in an instant. As networks grow more complex, even minor faults can escalate into critical issues. But what if these problems could be detected and resolved automatically, without human intervention?
-
-                        AI-powered network fault detection and recovery is transforming telecom by proactively identifying and fixing issues in real time. With Agentic AI, outages are minimized, response times are accelerated, and network reliability reaches new heights.
-
-                        In this post, we’ll explore how this cutting-edge technology is reshaping telecom infrastructure, ensuring seamless connectivity and operational excellence.
+                        In today's fast-paced digital world, network reliability is more critical than ever. Enterprise networks face increasing complexity, making it difficult to detect and resolve faults before they escalate into major disruptions. Traditional troubleshooting methods are often reactive, leading to costly downtimes and service interruptions.(AI) is transforming network management by shifting from reactive to proactive fault detection and recovery. AI-driven monitoring systems continuously analyze real-time data, identifying anomalies and potential issues before they impact operations.
                     </p>
                     <button className="rounded-xl bg-gradient-to-b from-transparent to-violet-500/40 text-purple-100 px-6 py-2 border border-gray-500 hover:text-gray-300 transition-all hover:scale-98 duration-200" onClick={() => { navigate('/contactus') }}>
                         Book a Demo →
