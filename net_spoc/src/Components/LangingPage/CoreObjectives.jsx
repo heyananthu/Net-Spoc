@@ -8,18 +8,18 @@ function CoreObjectives() {
     const navigate = useNavigate()
     const objectives = [
         {
-            title: "Seamless Connectivity",
-            text: "We're dedicated to providing you with reliable and high-speed internet connections. Whether you're a business or an individual, count on us to deliver new connections swiftly and efficiently, ensuring you're always connected to the digital world.",
+            title: "Seamless Enterprise Connectivity",
+            text: "We are committed to delivering high-speed, reliable network solutions tailored for businesses. Whether scaling operations or enhancing collaboration, count on us for swift and efficient connectivity that keeps your enterprise at the forefront of the digital world.",
             icon: icon1
         },
         {
-            title: "Proactive Fault Detection",
-            text: "Instead of reacting to failures after they occur, agentic AI continuously monitors systems to detect early warning signs. By identifying potential issues before they escalate, it enables proactive decision-making, reduces downtime, and ensures seamless performance.",
+            title: "Proactive Fault Detection for Enterprises",
+            text: "Rather than responding to failures after they occur, our AI-driven monitoring system continuously analyzes network health, identifying early warning signs before they escalate. This proactive approach minimizes downtime, enhances operational efficiency, and ensures seamless enterprise performance.",
             icon: icon2
         },
         {
-            title: "Real-time Monitoring",
-            text: "AI agents actively monitor your network around the clock, detecting potential issues and ensuring optimal performance. By analyzing real-time data, they can identify anomalies, prevent downtime, and enhance overall security.",
+            title: "Enterprise-Grade Real-Time Monitoring",
+            text: "Our AI-driven agents provide 24/7 network surveillance, proactively detecting potential issues and ensuring peak performance. By analyzing real-time data, they identify anomalies, mitigate risks, prevent downtime, and fortify enterprise security.",
             icon: icon3
         }
     ];
@@ -28,7 +28,7 @@ function CoreObjectives() {
         <div className="relative w-full min-h-screen bg-black flex flex-col items-center justify-center text-white bg-cover bg-right" style={{
             backgroundImage: `url(${bgimage})`
         }}>
-            
+
             {/* Background Image - Now Fully Responsive */}
             {/* <div
                 className="absolute inset-0 w-full h-full bg-cover bg-right sm:bg-top bg-no-repeat"
@@ -42,7 +42,7 @@ function CoreObjectives() {
 
             {/* Content */}
             <div className="relative z-10 w-full max-w-7xl px-4 md:px-8 py-16 gap-y-12">
-                
+
                 {/* Heading */}
                 <div className="text-center mb-10 mt-32">
                     <h1 className="font-audiowide text-5xl">Core Objectives</h1>
@@ -65,17 +65,16 @@ function CoreObjectives() {
                 {/* Extra Section */}
                 <div className="text-center text-white mt-32 space-y-10 px-4">
                     <h1 className="font-audiowide text-3xl sm:text-5xl">
-                        Enhancing Network Fault Detection <br /> and Recovery with AI Agents
+                        Revolutionizing Network Fault Detection <br /> and Recovery with AI
                     </h1>
                     <p className="font-poppins text-gray-100 text-sm sm:text-base leading-relaxed max-w-4xl mx-auto">
-                        We all know that network faults in telecom can be a nightmare—one little glitch and suddenly
-                        everything goes haywire! With networks getting more complex, even small problems can snowball into
-                        big issues. But what if there was a way to fix these problems instantly, with just the click of a
-                        button? Enter AI-powered network fault detection and recovery—where Agentic AI doesn’t just find
-                        the problems, it fixes them too, faster and smarter than ever before. In this post, we’re diving
-                        into how this technology is changing the game and making telecom networks more reliable than ever!
+                        Network failures in telecom can disrupt operations in an instant. As networks grow more complex, even minor faults can escalate into critical issues. But what if these problems could be detected and resolved automatically, without human intervention?
+
+                        AI-powered network fault detection and recovery is transforming telecom by proactively identifying and fixing issues in real time. With Agentic AI, outages are minimized, response times are accelerated, and network reliability reaches new heights.
+
+                        In this post, we’ll explore how this cutting-edge technology is reshaping telecom infrastructure, ensuring seamless connectivity and operational excellence.
                     </p>
-                    <button className="rounded-xl bg-gradient-to-b from-transparent to-violet-500/40 text-purple-100 px-6 py-2 border border-gray-500 hover:text-gray-300 transition-all hover:scale-98 duration-200" onClick={()=>{navigate('/contactus')}}>
+                    <button className="rounded-xl bg-gradient-to-b from-transparent to-violet-500/40 text-purple-100 px-6 py-2 border border-gray-500 hover:text-gray-300 transition-all hover:scale-98 duration-200" onClick={() => { navigate('/contactus') }}>
                         Book a Demo →
                     </button>
                 </div>
